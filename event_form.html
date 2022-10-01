@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <h2>Event Form</h2>
+
+    <form action="event-create.php" method="POST">
+      <fieldset>
+        <legend>Event information:</legend>
+
+        title:<br />
+
+        <input type="text" name="e_title" />
+
+        <br />
+
+        description:<br />
+
+        <input type="text" name="e_desc" />
+
+        <br />
+
+        date:<br />
+
+        <input type="date" name="e_date" />
+
+        <br />
+        image:<br />
+
+        <input type="text" name="image" />
+
+        <!-- input image -->
+
+        <br />
+
+        <br /><br />
+
+        <input type="submit" name="submit" value="submit" />
+      </fieldset>
+    </form>
+
+    <a href="event-view.php">view</a>
+  </body>
+</html>

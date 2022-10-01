@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <h2>Poeple Form</h2>
+
+    <form action="people-create.php" method="POST">
+      <fieldset>
+        <legend>Event information:</legend>
+
+        name:<br />
+
+        <input type="text" name="pname" />
+
+        <br />
+
+        role:<br />
+
+        <!-- multiple choice input -->
+        <select name="prole">
+          <option value="Assistant Secretary">Assistant Secretary</option>
+          <option value="President">President</option>
+          <option value="Secretary">Secretary</option>
+          <option value="Executive">Executive</option>
+          <option value="General Member">General Member</option>
+        </select>
+
+        <br />
+
+        uiu id:<br />
+
+        <input type="text" name="uiuid" />
+
+        <br />
+        image:<br />
+
+        <input type="text" name="image" />
+
+        <!-- input image -->
+
+        <br />
+
+        <br /><br />
+
+        <input type="submit" name="submit" value="submit" />
+      </fieldset>
+    </form>
+
+    <a href="event-view.php">view</a>
+  </body>
+</html>
